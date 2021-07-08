@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='windows-1252' standalone='yes'?>
+<MetaData>
+  <ProjectTemplate>
+    <Title>General Plugin Template</Title>
+    <Description>
+      General Rxn Rover plugin template based on the Queue Message Handler
+      template provided by LabVIEW.
+    </Description>
+    <Filters>Rxn Rover</Filters>
+    <Keywords>rxnrover;plugin;instrumentation</Keywords>
+    <LocationPath>General Plugin Template</LocationPath>
+    <ListboxImagePath>assets/rxnrover_logo_32x32.png</ListboxImagePath>
+    <ProjectPath>General Plugin Template.lvproj</ProjectPath>
+  </ProjectTemplate>
+</MetaData>
