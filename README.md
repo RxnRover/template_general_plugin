@@ -9,6 +9,15 @@ program.
 
 ## Installation
 
+### Prerequisites
+
+This template, and any plugin created from this template, requires the 
+[DynamicReentrant](https://github.com/RxnRover/DynamicReentrant) library. This
+library is provided by the Rxn Rover team to facilitate communication with Rxn 
+Rover. 
+
+### Getting the Template
+
 Download this template by clicking the "Code" button in the top right of its 
 GitHub repository and selecting "Download ZIP". Extract the template and make 
 a copy to use it. Copies of this template can be modified to create instrument 
