@@ -23,6 +23,10 @@ GitHub repository and selecting "Download ZIP". Extract the template and make
 a copy to use it. Copies of this template can be modified to create instrument 
 plugins for Rxn Rover, using drivers created for each instrument.
 
+For the rest of this tutorial, the extracted template directory will be called
+"General Plugin Template", and this name is recommended for your directory as 
+well.
+
 ### Integrating Template Into LabVIEW Project Creator
 
 It is possible to integrate this plugin template into the "Templates" list of 
@@ -33,13 +37,18 @@ Abbreviated instructions are included below:
 - Extract the ZIP file into your `<LabVIEW Data>/ProjectTemplates/Source` 
   directory, creating the `Source` directory if this is your first template.
 
+  - The extracted ZIP directory **must** be named "General Plugin Template", or, 
+    for advanced users, the `<LocationPath></LocationPath>` path in the 
+    `MetaData` XML file in the next step must be updated to match the current 
+    template directory name.
+
 - Copy the provided `general_plugin_template.xml` file into the 
   `<LabVIEW Data>/ProjectTemplates/MetaData` directory, creating the `MetaData`
   directory if needed.
   
 - The General Plugin Template option should now be available in the LabVIEW 
   Project Creator dialog!
-  
+
 ## Basic Usage
 
 **NOTE:** It is strongly recommended that you have a functioning instrument 
@@ -56,6 +65,10 @@ template, since there is a lot of code, but not much that needs modification!
 - Create a new project either by copying the `General Plugin Template`
   directory, or by selecting the `General Plugin Template` option in the 
   LabVIEW Project Creator (if the integration steps above were followed).
+
+  - Rxn Rover looks in specific directories when it loads plugins. If this 
+    plugin will be used in Rxn Rover, it is recommended to place the new
+    plugin project in `<documents>/RxnRover/CustomPlugins`.
   
 - Rename the project and the "Rename to match project" library to something 
   descriptive for the target instrument.
